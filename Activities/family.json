@@ -1,0 +1,37 @@
+{
+    "Family": {
+     "Humans": [{
+       "name": "Man Him Yeung",
+       "age": 18,
+       "languages": ["C#", "C++", "JavaScript", "Python", "PHP"],
+       "hasPassedISTQB": false,
+       "pets": [{
+       "species": "Dog",
+       "name": "Pet 1",
+       "colour": "red",
+       "babies": 3
+       },
+       {
+       "species": "Fish",
+       "name": "Pet 2",
+       "colour": "orange",
+       "babies": 1
+       }]
+       },
+    
+       {
+       "name": "Boy Him Yeung",
+       "age": 17,
+       "languages": ["C", "PHP", "F#"],
+       "hasPassedISTQB": true,
+       "pets": [{
+       "species": "Cat",
+       "name": "Pet 3",
+       "colour": "yellow",
+       "babies": 5
+       }]
+       }
+     ]
+    }
+    }
+    

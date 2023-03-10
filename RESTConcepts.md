@@ -4,6 +4,12 @@
 
 * A mechanism which allows two computer programs to communicate with each other.
 
+##### API Key
+
+API keys provide project authorization
+
+By identifying the calling project, you can use API keys to associate usage information with that project. API keys allow the Extensible Service Proxy (ESP) to reject calls from projects that haven't been granted access or enabled in the API.
+
 ##### What is REST?
 
 * Representational State Transfer

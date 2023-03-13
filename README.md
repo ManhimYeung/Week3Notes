@@ -218,7 +218,7 @@ Feedback loops are processes where designers use a system’s outputs as inputs 
 
 6. What is the difference between WCAG, WAI-ARIA and ARIA?
 
-# Need to wewatch video
+# Need to rewatch video
 * WCAG - Web Content Assessibility guidelines
 * WAI-ARIA - Web Assessibility Initiative - Assessible Rich Internet Application
 
@@ -228,3 +228,178 @@ Feedback loops are processes where designers use a system’s outputs as inputs 
 * Wave
 * ChromeVox
 * W3C CSS Validator
+
+### Exploratory Testing
+
+1. Describe what is meant by exploratory testing.
+
+* An informal test design technique where the tester actively controls the design of the tests as those tests are performed and uses information gained while testing to design new and better tests.
+
+2. Why is ET usually carried out by an experienced tester?
+
+* It helps review the quality of a product from a user perspective
+
+3. What are some essential elements to consider with ET?
+
+ 
+
+4. How would you start the process of ET?
+
+
+
+5. How can Heuristics be useful in ET?
+
+* They help to avoid mistakes, made under identical circumstances during testing of similar software.
+
+6. What are log files?
+
+* A log file is a computer-generated data file that contains information about usage patterns, activities, and operations within an operating system.
+
+### Performance testing
+
+1. What is meant by performance testing?
+
+Performance testing is a non-functional software testing technique that determines how the stability, speed, scalability, and responsiveness of an application holds up under a given workload.
+
+2. What factors affect web performance?
+
+* File type and size (images/videos/scripts)
+* browser used
+* page caching
+
+3. What is caching and how does that help with web performance?
+
+* A cache is a high speed data storage layer which stores a subset of data.
+* It increases the data retrieval performance by reducing the need to access the underlying slower storage layer.
+* more cache = more data can be stored closer to the CPU.
+
+4. What is page weight and how can this affect web performance?
+
+* The overall size of a particular web page. The smaller the file size of a page, the faster it will load for anyone who requests it.
+
+5. Name some tools that we can use to test/measure web performance.
+
+* Selenium IDE
+* WAVE
+* Spectrum
+
+6. Why is performance testing important?
+
+* Because it can be used to analyse various success factors such as response times and potential errors.
+
+7. What is load testing?
+
+* Load testing places a simulated "load" or demand on a web application to ensure it remains stable during operation.
+
+8. What is stress testing?
+
+* Stress testing is a type of software testing that verifies stability & reliability of software application. The goal is to measure software on it's robustness and error handling capabilities under extremely heavy load conditions and ensuring that software does not crash under crunch situations. It even tests beyond normal operating points and evaluatese how software works under extreme conditions.
+
+9. What is volume testing?
+
+A type of software testing where the software is subjected to a huge volume of data.
+
+
+### File Formats
+
+1. Describe the JSON structure
+
+* {"name": "Man Him Yeung", "age": 16}
+
+2. What data type are the keys in JSON?
+
+* string, number, json object, array, boolean, null
+
+3. Describe the XML stucture.
+
+<name>Man Him Yeung</name>
+<age>15</age>
+
+4. What is the difference between XML and HTML?
+
+* HTML displays data and describes the structure of a webpage, whereas XML stores data and transfer data.
+
+5. Describe the structure of YAML
+
+---
+    name: "Man Him Yeung"
+    age: 14
+    friends:
+        - friend01
+        - friend02
+        - friend03
+
+6. Why are JSON, XML and YAML used?
+
+The process of converting an object into a stream bytes to more easily save or transmit it?
+
+### HTTP Protocol
+
+1. What is HTTP?
+
+* Hypertext Transfer Protocol
+* An application layer protocol for transmitting hypermedia documents such as HTML.
+
+2. What does a request-response style protocol mean?
+
+* As a request response protocol, HTTP gives users a way to interact with web resources such as HTML files by transmitting hypertext messages between clients and servers.
+
+3. What does statelessness mean with HTTP?
+
+* Each request is executed independently, without any knowledge of the requests that were executed before it, which means once the transaction ends the connection between the browser and the server is also lost.
+
+4. What is found in an HTTP request?
+
+* Get, put, post, head, delete, patch
+
+5. What is included within a HTTP response?
+
+* Request line, headers, message body
+
+6. What are cookies?
+
+* Small piece of data that a server sends to user's web browser.
+
+7. Why are cookies used? 
+
+* They help website remember information about user's visit.
+
+8. What are the different types of HTTP response status codes?
+
+* 100: informational
+* 200: okay
+* 300: redirectional
+* 400: error
+* 500: server error
+
+9. What are the HTTP CRUD request methods we can use?
+
+* C: Create
+    * Insert a new record into the data store
+
+* R: Read
+    * Read an existing record orr records from the data store
+
+* U: Update
+    * Modify an existing record in the data store
+
+* D: Delete
+    * Remove an existing record from the data store
+
+10. What is the difference between POST, PUT and PATCH?
+
+* Post creates a resource
+* Put replaces a resource
+* Patch updates a resource
+
+11. What is DNS?
+
+* Domain Name System, translates human readable domain names to machine readable IP address.
+
+12. What is the difference between HTTP and HTTPS?
+
+* HTTPS - communication between device and server is encrypted
+
+13. What is caching?
+
+* A cache is a high speed data storage layer which stores a subset of data.

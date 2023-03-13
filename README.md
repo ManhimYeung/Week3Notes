@@ -204,11 +204,11 @@ Feedback loops are processes where designers use a system’s outputs as inputs 
 
 3. What are some examples of accessibility standards?
 
-# Need to rewatch video
+###### Need to rewatch video
 
 4. What are the 4 principles of WCAG? Explain one with an example.
 
-* Perceivable, Operable, Understandable, Robust.
+* Perceivable(easy to see), Operable(without keyboard), Understandable, Robust.
 
 5. What are the 3 levels of WCAG Conformance?
 
@@ -218,7 +218,6 @@ Feedback loops are processes where designers use a system’s outputs as inputs 
 
 6. What is the difference between WCAG, WAI-ARIA and ARIA?
 
-# Need to rewatch video
 * WCAG - Web Content Assessibility guidelines
 * WAI-ARIA - Web Assessibility Initiative - Assessible Rich Internet Application
 
@@ -233,7 +232,7 @@ Feedback loops are processes where designers use a system’s outputs as inputs 
 
 1. Describe what is meant by exploratory testing.
 
-* An informal test design technique where the tester actively controls the design of the tests as those tests are performed and uses information gained while testing to design new and better tests.
+* An informal test design technique where the tester actively controls the design of the tests as those tests are performed and uses information gained while testing to design new and better tests. (explain test charter, how it's used)
 
 2. Why is ET usually carried out by an experienced tester?
 
@@ -312,8 +311,8 @@ A type of software testing where the software is subjected to a huge volume of d
 
 3. Describe the XML stucture.
 
-<name>Man Him Yeung</name>
-<age>15</age>
+* <name>Man Him Yeung</name>
+* <age>15</age>
 
 4. What is the difference between XML and HTML?
 
@@ -403,3 +402,94 @@ The process of converting an object into a stream bytes to more easily save or t
 13. What is caching?
 
 * A cache is a high speed data storage layer which stores a subset of data.
+
+### REST APIs
+
+1. What is a REST API?
+
+* REST API is an interface that two computer systems use to exchange information securely over the internet
+
+2. What are the REST API criterias and what do they mean?
+
+* Client-Server Architecture
+    * The user sends a request to the server and the server sends back a response.
+* Statelessness
+    * calls can be made independently of one another, and each call contains all of the data necessary to complete itself successfully.
+* Cacheability
+    * The ability to store copies of frequently accessed data in several places along the request-response path
+* Layered system
+    * A generic architecture model that can be adapted to various use cases, such as the OSI model for networking.
+* Code on demand
+    * It allows clients to improve their flexibility because it is the server who decides how certain things will be done.
+* Uniform interface
+    * Defines the interface between clients and servers
+
+3.  What is the importance of a layered system?
+
+* REST allows you to use a layered system architecture where you deploy the APIs on server A, and store data on server B and authenticate requests in Server C.
+
+4. What is a REST endpoint?
+
+* A REST Service Endpoint is an endpoint which services a set of REST resources.
+
+5. What's the relevance of plurals in the urls of REST APIs?
+
+* Using plural or singular nouns for defining resources has no any impact on how your API will work
+
+6. What does CRUD describe?
+
+* C: Create
+    - Insert a new record into the data store
+
+* R: Read
+    * Read an existing record orr records from the data store
+
+* U: Update
+    * Modify an existing record in the data store
+
+* D: Delete
+    * Remove an existing record from the data store
+
+7. What is an API key?
+
+API keys provide project authorization
+
+By identifying the calling project, you can use API keys to associate usage information with that project. API keys allow the Extensible Service Proxy (ESP) to reject calls from projects that haven't been granted access or enabled in the API.
+
+8. What is HATEOAS - Hypertext As The Engine Of Application State
+
+A client interacts with a network application whose application servers provide information dynamically through hypermedia
+
+### Acceptance Testing
+
+1. How do Alpha and Beta testing compare?
+
+* Alpha: 
+    * Software tested in controlled environment in-house
+    * Performed by in-house developers
+    * Identify as many defects as early as possible which are fixed by development team
+
+* Beta:
+    * software tested in a real world environment
+    * Performed by end-users
+    * Identify any remaining defects and feedback to the development team
+
+2. What is the objective of UAT?
+
+* Ensure software can handle real-world tasks and perform up to development specifications.
+
+3. How do Beta testing and UAT compare?
+
+* UAT testing and beta testing are closely related. UAT is never a “public” release and is usually conducted with coordination from the testing team. Beta testing is less structured and often involves a general public “beta” release.
+
+4. What is the objective of OAT?
+
+* Test the overall operational capability of a solution.
+
+5. What is the objective of RAT?
+
+* Determine whether a product violates the regulations and rules established by the governing authorities of the country in which it is released.
+
+6. What is the objective of CAT?
+
+* Ensure that the requirements indicated in the contract are met for the software being developed.
